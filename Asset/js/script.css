@@ -14,7 +14,7 @@ body {
     text-align: center;
     color: #fff;
     margin-bottom: 350px;
-    margin-right: -200px;
+    margin-right: 20px;
   }
   
   #loginform {
@@ -24,6 +24,10 @@ body {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   #loginform div {
